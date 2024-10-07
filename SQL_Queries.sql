@@ -137,3 +137,5 @@ select day_name, avg(rating) as avg_rating from sales group by day_name order by
 
 ----Which day of the week has the best average ratings per branch?
 select day_name,branch, avg(rating) as avg_rating from sales group by day_name, branch order by branch asc;
+
+---------------------------Thank you----------------------------------
